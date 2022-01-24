@@ -1,15 +1,15 @@
 html {
-  height: 100%;
+ /*  height: 100%; */
 }
 
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
+  
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(#403075, #882D61);
+  background-color: rgb(100, 198, 255);
 }
 
 .piano {
@@ -19,8 +19,8 @@ body {
 }
 
 .white-key {
-  width: 40px;
-  height: 120px;
+  width: 50px;
+  height: 200px;
   background-color: #FFF;
   border: 4px solid black;
   border-radius: 0 0 6px 6px;
@@ -35,8 +35,8 @@ body {
 
 .black-key {
   position: absolute;
-  width: 24px;
-  height: 80px;
+  width: 30px;
+  height: 97px;
   background-image: linear-gradient(#000000, #303030);
   border: 3px solid black;
   border-radius: 0 0 2px 2px;
@@ -49,31 +49,31 @@ body {
 }
 
 .Db4-key {
-  left: 22px;
+  left: 28px;
 }
 
 .Eb4-key {
-  left: 58px;
+  left: 76px;
 }
 
 .Gb4-key {
-  left: 130px;
+  left: 168px;
 }
 
 .Ab4-key {
-  left: 166px;
+  left: 214px;
 }
 
 .Bb4-key {
-  left: 202px;
+  left: 259px;
 }
 
 .Db5-key {
-  left: 274px;
+  left: 350px;
 }
 
 .Eb5-key {
-  left: 310px;
+  left: 396px;
 }
 
 @media screen and (max-width:640px){
