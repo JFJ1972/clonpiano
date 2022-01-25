@@ -45,6 +45,9 @@
         justify-content: center;
     }
 
+    .pianini{
+        background-color: #64C6FF;
+    }
 
     .cajita:hover{
         background-color: rgb(100, 198, 255);

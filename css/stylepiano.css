@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.conte{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.historia{
+    
+    height: 200px;
+}
+
+.casita{
+    background-color:#64C6FF ;
+}
+
+@media screen and (min-width:460px){ 
+    .videon iframe {
+        width: 400px ;
+
+    }
+    .historia{
+    
+        width: 400px;
+    }
+}
+
+@media screen and (min-width:600px){ 
+    .videon iframe {
+        width: 580px ;
+        height: 300px;
+    }
+    .historia{
+    
+        width: 580px;
+    }
+}
+
+@media screen and (min-width:1200px){ 
+    .videon iframe {
+        width: 700px ;
+        height: 400px;
+    }
+    .historia{
+    
+        width: 700px;
+    }
+}
