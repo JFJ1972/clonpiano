@@ -38,7 +38,7 @@
 
     .cajita{
         width: 100%;
-        height: 15vh;
+        height: 180px;
         
         display: flex;
         align-items: center;
@@ -76,7 +76,7 @@
         }
         .cajita{
             width: 80px;
-            height: auto;
+            height: 180px;
         }
     
     
