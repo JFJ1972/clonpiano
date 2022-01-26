@@ -11,14 +11,12 @@
         width: 100%;
         height: 100vh;
     }
-
     .barra{
         background-color: rgb(7, 7, 202);
         display: flex;
         align-items: center;
         justify-content: center;
     }
-
     .campo{
         background-color: rgb(100, 198, 255);
         display: flex;
@@ -26,65 +24,40 @@
         justify-content: center;
         position: relative;
     }
-
     .piano{
-        
         border: solid rgb(241, 228, 228) 3px;
-        
         border-radius: 10px;
-    
     }
-
-
     .cajita{
         width: 100%;
         height: 180px;
-        
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .cajita{
-        width: 100%;
-        height: 180px;
-        
         display: flex;
         align-items: center;
         justify-content: center;
         position: relative;
     }
-    
     .cajita a{
-       
         width: 100%;
         display: flex;
         justify-content: center;
         position: absolute;
         height: 180px;
     }
-
-
     .pianini{
         background-color: #64C6FF;
     }
-.casita{
-    background-color: #0707CA;
-}
-.marimb{
-    background-color: #0707CA;
-}
-.bateria{
-    background-color: #0707CA;
-}
-
-
+    .casita{
+        background-color: #0707CA;
+    }
+    .marimb{
+        background-color: #0707CA;
+    }
+    .bateria{
+        background-color: #0707CA;
+    }
     .cajita:hover{
         background-color: rgb(100, 198, 255);
-        
     }
-
-
     .musi{
         color: aliceblue;
         position: absolute;
@@ -93,40 +66,34 @@
         font-size: 98px;
     }
 
-
-    @media screen and (max-width:460px){
-
+@media screen and (max-width:460px){
         .container{
-            display: grid;
-            grid-template-columns:   1fr;
-            grid-template-rows:minmax(100px, 100px) 1fr;
-            width: 100%;
-            height: 100vh;
-        }
-        
+         display: grid;
+         grid-template-columns:   1fr;
+         grid-template-rows:minmax(100px, 100px) 1fr;
+         width: 100%;
+         height: 100vh;
+    }    
         .objeto{
-            width: 45px;
-        }
-        .cajita{
-            width: 80px;
-            height: 180px;
-        }
-        .texto{
-            position: absolute;
-            top: 225px;
-    
-        }
-    
+        width: 45px;
     }
-    @media screen and (max-width:640px){
+        .cajita{
+        width: 80px;
+        height: 180px;
+    }
+        .texto{
+        position: absolute;
+        top: 225px;
+    }
+    }
+    
+@media screen and (max-width:640px){
     .texto{
         visibility: hidden;
     }
-
     }
 
-
-    @media screen and (min-width:640px){
+@media screen and (min-width:640px){
     .texto{
         position: absolute;
         top: 25px;
@@ -138,11 +105,10 @@
     .texto h2{
         font-family: "poppins"; 
     }
-    
     .texto p{
         font-family: "poppins";
     }
-
+}
 
 @media screen and (min-width:1024px){
 
@@ -187,26 +153,20 @@
         width: 100%;
         height: 100vh;
     }
-    
     .piano{
-        
         border: solid rgb(241, 228, 228) 3px;   
         border-radius: 10px;
-    
     }
     
     .cajita{
         width: 100%;
         height: 15vh;
-        
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    
     .cajita:hover{
         background-color: rgb(100, 198, 255);
-        
     }
     .musi{
         color: aliceblue;
@@ -215,9 +175,4 @@
         left: 91%;
         font-size: 98px;
     }
-
-
 }
-
-
-

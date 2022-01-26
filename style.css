@@ -1,6 +1,3 @@
-/*html {
- /*  height: 100%; 
-}*/
 
 body {
   margin: 0;
@@ -80,21 +77,15 @@ body {
 }
 
 @media screen and (max-width:640px){
-
   .piano{
     transform: rotate(-90deg);
   }
-
-
 }
 
-
 @media screen and (min-width:650px){
-
   .white-key.active {
     background-color: #48c9f0;
   }
-
   .white-key {
     width: 65px;
     height: 200px;
@@ -105,8 +96,6 @@ body {
     outline: none;
     cursor: pointer;
   }
-  
-
   
   .black-key {
     position: absolute;
@@ -150,6 +139,4 @@ body {
   .Eb5-key {
     left: 530px;
   }
-
-
 }
