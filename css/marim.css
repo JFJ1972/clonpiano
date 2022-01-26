@@ -14,8 +14,15 @@
 }
 
 .historia{
-    
+    text-align: center;
     height: 200px;
+}
+.historia h1{
+font-family: "Mochiy Pop P One";
+
+}
+.historia h2{
+font-family: "poppins";
 }
 
 .marimb{
