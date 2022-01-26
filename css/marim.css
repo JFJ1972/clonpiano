@@ -18,13 +18,13 @@
     height: 200px;
 }
 
-.casita {
+.marimb{
     background-color:#64C6FF ;
 }
 .pianini{
     background-color: #0707CA;
 }
-.marimb{
+.casita{
     background-color: #0707CA;
 }
 .bateria{
@@ -42,6 +42,7 @@
 }
 
 .cajita a{
+   
     width: 100%;
     display: flex;
     justify-content: center;
@@ -50,7 +51,7 @@
 }
 
 @media screen and (min-width:460px){ 
-    .videon iframe {
+    .marimba iframe {
         width: 400px ;
 
     }
@@ -61,7 +62,7 @@
 }
 
 @media screen and (min-width:600px){ 
-    .videon iframe {
+    .marimba iframe {
         width: 580px ;
         height: 300px;
     }
@@ -72,7 +73,7 @@
 }
 
 @media screen and (min-width:1200px){ 
-    .videon iframe {
+    .marimba iframe {
         width: 700px ;
         height: 400px;
     }
